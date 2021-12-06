@@ -25,3 +25,11 @@ body{
         background: rgba(59, 109, 174, 0.789);
     }
 }
+
+button:disabled{
+    background: grey;
+    &:hover{
+        cursor:auto;
+        background: grey;
+    }
+}
