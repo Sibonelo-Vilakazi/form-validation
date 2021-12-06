@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { JobApplicationComponent } from './pages/job-application/job-application.component';
 import { CongradulationsPageComponent } from './pages/congradulations-page/congradulations-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -13,8 +14,8 @@ import { CongradulationsPageComponent } from './pages/congradulations-page/congr
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-    
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
